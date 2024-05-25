@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.oneForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#buttonOne {
+    width: 200px;
+    margin: 0 10px;
+    padding: 5px 0;
+    background-color: cornflowerblue;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#buttonOne:hover {
+    background-color: #04318a;
+}
+
+/*.result-item {*/
+/*    margin-top: 10px;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ddd;*/
+/*    background-color: #f9f9f9;*/
+/*}*/

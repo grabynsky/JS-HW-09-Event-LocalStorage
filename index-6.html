@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Table</title>
+</head>
+<body>
+
+<label for="rowCountInput">Кількість рядків:</label>
+<input type="number" id="rowCountInput" min="1" value="1">
+
+<br><br>
+
+<label for="columnCountInput">Кількість стовпчиків:
+<input type="number" id="columnCountInput" min="1" value="1">
+</label>
+<br><br>
+
+<label for="cellContentInput">Вміст ячеек:
+<input type="text" id="cellContentInput">
+</label>
+<br><br>
+
+<button id="createTableButton">Створити таблицю</button>
+
+<div id="tableContainer"></div>
+
+<script src="main-6.js"></script>
+</body>
+</html>
